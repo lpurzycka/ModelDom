@@ -30,3 +30,35 @@ function zmianaRozmiaru(e) {
 
 mainHeader.addEventListener("mouseover", zmianaRozmiaru);
 mainHeader.addEventListener("mouseout", zmianaRozmiaru);
+
+
+
+
+//------
+
+
+document.getElementById("exampleDiv").addEventListener("click", function(e){
+    e.preventDefault();
+    console.log("kliknięto DIV");
+});
+
+document.getElementById("exampleLink").addEventListener("click", function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    console.log("kliknięto LINK");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
