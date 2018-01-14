@@ -11,7 +11,7 @@ var pierwszyDiv = document.getElementById("parFirst");
 //console.log(dzieciDiva);
 
 
-//childNodes-pobiera również przestrzeń czli białe znaki, czli spacje miedz wierszami
+//childNodes-pobiera również przestrzeń czylili białe znaki, czli spacje miedz wierszami
 
 
 //zwraca nam białe znaki:
